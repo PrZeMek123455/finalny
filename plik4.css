@@ -1,0 +1,117 @@
+.section{
+    max-width: 1200px;
+    height: 800px;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+
+
+.pierwszy{
+    width: 400px;
+    height: 600px;
+    background-image: url("https://moto-magazine.ru/custom-gold-wing1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.drugi{
+    width: 400px;
+    height: 600px;
+    background-image: url("https://moto-magazine.ru/custom-gold-wing1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.trzeci{
+    width: 400px;
+    height: 600px;
+    background-image: url("https://moto-magazine.ru/custom-gold-wing1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tekst1{
+    max-width: 400px;
+    height: 200px;
+    position: relative;
+    top: 600px;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tekst2{
+    max-width: 400px;
+    height: 200px;
+    position: relative;
+    top: 600px;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tekst3{
+    max-width: 400px;
+    height: 200px;
+    position: relative;
+    top: 600px;
+    flex-wrap:wrap ;
+    text-align: justify;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p{
+    position: relative;
+    top: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .section{
+        max-width: 400px;
+        flex-wrap: wrap;
+        display: inline-block;
+    }
+
+    .pierwszy{
+        position: relative;
+        top: 100px;
+    }
+
+    .drugi{
+        position: relative;
+        top: 200px
+    }
+
+    .trzeci{
+        position: relative;
+        top: 300px
+    }
+
+    .tekst1{
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .tekst2{
+        max-width: 400px;
+        height: 200px;
+    }
+
+    .tekst3{
+        max-width: 400px;
+        height: 100px;
+    }
+
+    p{
+        position: relative;
+        top: 40px;
+    }
+}
+
